@@ -1,0 +1,23 @@
+.TodoImagen {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    border-radius: 12px; /* Ajusta el radio según lo que necesites */
+    width: 100%; /* Reduce el ancho para dejar espacio a las sombras */
+    max-width: 380px;
+    margin-left: auto;
+  }
+  de aqui regresar
+  
+  .TodoItem-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Imagen circular */
+    margin-right: 16px;
+    }
+
+
+
+  

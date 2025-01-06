@@ -1,0 +1,70 @@
+.TodoCounter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+  }
+  
+  .TodoCounter-chart {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 100px;
+  }
+  
+  .TodoCounter-chart--item {
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+    font-weight: normal;
+  }
+  
+  .TodoCounter-indicator {
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    cursor: pointer;
+  }
+  
+  .TodoCounter-indicator--item {
+    margin-right: 10px;
+  }
+  
+  .TodoCounter span {
+    font-weight: bold;
+    font-size: 22px;
+    color: white; 
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width:1400px) {
+  
+    .TodoCounter-indicator {
+      margin: 2px 30px;
+    }
+  }
+  
+  @media (max-width: 871px) {
+  
+    .TodoCounter-chart {
+      margin-left: 0;
+      padding: 10px;
+    }
+  
+    .TodoCounter-chart--item {
+      font-size: 18px;
+      padding: 2px;
+    }
+
+    .TodoCounter span {
+        font-weight: bold;
+  }
+}

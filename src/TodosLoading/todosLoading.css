@@ -1,0 +1,73 @@
+.TodoItemLoading {
+  background-color: rgba(40, 40, 145, 0.5);
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  box-shadow: 0px 5px 50px rgba(240, 241, 243, 0.575);
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  margin-left: auto;
+  padding: 0px 160px 0px 160px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.TodoItemLoading::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-left: 8px solid #FFFF00;
+  border-right: 8px solid #FFFF00;
+  border-radius: 12px;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+}
+
+
+.TodoItemLoading-p {
+  justify-content: center;
+  margin: 22px 0px 22px 10px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+  color: white;
+  cursor: default;
+  filter: blur(2px);
+  opacity: 0.6;
+  animation: pulse 1.5s infinite ease-in-out; /* Efecto animado de carga */
+}
+
+
+/* Animación de pulso */
+@keyframes pulse {
+  0% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes loadingAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
