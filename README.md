@@ -1,4 +1,4 @@
-Tasks: Web Application for Task Management
+# Tasks: Web Application for Task Management
 
 Description:
 Tasks is a web application designed to help you organize and manage your work, home, and personal to-dos. You can create task lists with essential details like title, description, date, and category. The app allows you to edit, delete, mark tasks as completed, and filter them based on various criteria.
