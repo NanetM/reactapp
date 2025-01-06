@@ -5,12 +5,14 @@ Tasks is a web application designed to help you organize and manage your work, h
 
 Key Features:
 
-✏️🗑️ Add, edit, and delete: Easily create, update, and delete your tasks.
-✅ Mark as completed: Highlight tasks that you’ve finished.
-🔍 Text filtering: Search for tasks by matching specific keywords or phrases.
-📊 Progress: Displays a visual indicator of your pending tasks.
-📦 Local storage: Saves your tasks in the browser so they persist even after closing the app.
-📱 Responsive design: Adapts to different devices for an optimal experience across screens.
+## Key Features  
+- ✏️🗑️ **Add, edit, and delete:** Easily create, update, and delete your tasks.  
+- ✅ **Mark as completed:** Highlight tasks that you’ve finished.  
+- 🔍 **Text filtering:** Search for tasks by matching specific keywords or phrases.  
+- 🗂️ **Filtering and grouping:** Organize tasks by categories or other criteria.  
+- 📊 **Progress chart:** Displays a visual indicator of your pending tasks.  
+- 📦 **Local storage:** Saves your tasks in the browser so they persist even after closing the app.  
+- 📱 **Responsive design:** Adapts to different devices for an optimal experience across screens.
 
 # Getting Started with Create React App
 
