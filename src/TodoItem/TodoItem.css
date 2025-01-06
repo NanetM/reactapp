@@ -7,7 +7,7 @@
   align-items: center;
   margin-top: 25px;
   box-shadow: 0px 5px 50px rgba(240, 241, 243, 0.575);
-  border-radius: 12px; /* Ajusta el radio según lo que necesites */
+  border-radius: 12px; 
   width: 90%; /* Reduce el ancho para dejar espacio a las sombras */
   max-width: 400px;
   margin-left: auto;
@@ -22,10 +22,10 @@
     left: 0;
     bottom: 0;
     right: 0;
-    border-left: 8px solid #FFFF00; /* Borde verde en el lado izquierdo */
-    border-right: 8px solid #FFFF00; /* Borde verde en el lado derecho */
-    border-radius: 12px; /* Mantén las esquinas redondeadas */
-    pointer-events: none; /* Para evitar interferencia en interacciones */
+    border-left: 8px solid #FFFF00; 
+    border-right: 8px solid #FFFF00; 
+    border-radius: 12px; 
+    pointer-events: none; 
 }
 
   .TodoItem-p {
@@ -75,54 +75,50 @@
   }
 
 
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     .TodoItem {
-        width: 100%; /* Usar el 100% del ancho disponible */
-        max-width: none; /* Eliminar límite para pantallas más pequeñas */
-        padding: 15px; /* Reducir el padding */
-        margin-top: 15px; /* Reducir el margen superior */
+        width: 90%; 
+        padding: 20px; 
     }
 
     .TodoItem-p {
-        font-size: 18px; /* Reducir tamaño de fuente */
-        line-height: 22px; /* Ajustar el espacio entre líneas */
-        margin: 15px 0px; /* Reducir márgenes */
+        font-size: 20px; 
     }
 
     .Icon {
-        height: 100px; /* Reducir la altura */
-        width: 50px; /* Reducir el ancho */
-        font-size: 20px; /* Reducir el tamaño de fuente */
+        height: 100px; 
+        width: 50px; 
+        font-size: 20px; 
     }
 
     .Icon-check {
-        left: 8px; /* Ajustar posición */
+        left: 8px; 
     }
 
     .Icon-delete {
-        top: -20px; /* Ajustar la posición superior */
+        top: -20px; 
     }
 }
 
-/* Pantallas menores a 500px (móviles) */
-@media (max-width: 500px) {
+
+@media (max-width: 400px) {
     .TodoItem {
-        padding: 10px; /* Reducir aún más el padding */
-        border-radius: 8px; /* Ajustar el radio para dispositivos pequeños */
+        padding: 10px; 
+        border-radius: 8px; 
     }
 
     .TodoItem-p {
-        font-size: 16px; /* Reducir aún más la fuente */
+        font-size: 16px; 
         line-height: 20px;
     }
 
     .Icon {
-        height: 80px; /* Reducir la altura */
-        width: 40px; /* Reducir el ancho */
-        font-size: 18px; /* Reducir el tamaño de fuente */
+        height: 80px; 
+        width: 40px; 
+        font-size: 18px; 
     }
 
     .Icon-delete {
-        top: -15px; /* Ajustar la posición */
+        top: -15px; 
     }
 }
