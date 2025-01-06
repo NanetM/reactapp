@@ -18,6 +18,9 @@
     margin-right: 16px;
     }
 
-
-
+    @media (max-width: 768px) {
+      .TodoImagen {
+          display: none; /* Ocultar el contenedor de la imagen */
+      }
+  }
   
