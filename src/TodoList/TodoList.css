@@ -3,3 +3,37 @@
   padding: 0 0 56px 0;
   list-style: none;
 }
+
+@media (max-width: 1400px) {
+  .Todo-list-hundred--percent {
+    width: calc(60% - 40px);
+  }
+}
+
+@media (max-width: 1350px) {
+  .Todo-list-hundred--percent {
+    width: calc(70% - 50px);
+  }
+}
+
+@media (max-width: 1100px) {
+  .Todo-list-hundred--percent {
+    width: calc(80% - 60px);
+  }
+}
+
+@media (max-width: 900px) {
+  .Todo-list-hundred--percent {
+    width: calc(100% - 60px);
+  }
+}
+
+@media (max-width: 500px) {
+  .TodoList {
+    max-height: 600px;
+  }
+
+  .Todo-list-hundred--percent {
+    width: 100%;
+  }
+}

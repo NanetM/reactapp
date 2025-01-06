@@ -36,35 +36,63 @@
     transform: rotate(200deg);
   }
   
-  @media (max-width: 1400px) {
-    .CreateTodoButton {
+  
+/* Pantallas menores a 1400px */
+@media (max-width: 1400px) {
+  .CreateTodoButton {
       width: calc(60% - 40px);
-    }
   }
-  
-  @media (max-width: 1350px) {
-    .CreateTodoButton {
+}
+
+/* Pantallas menores a 1350px */
+@media (max-width: 1350px) {
+  .CreateTodoButton {
       width: calc(70% - 50px);
-    }
   }
-  
-  @media (max-width: 1100px) {
-    .CreateTodoButton {
+}
+
+/* Pantallas menores a 1100px */
+@media (max-width: 1100px) {
+  .CreateTodoButton {
       left: 0;
       width: calc(80% - 60px);
       background-color: rgba(180, 180, 180, 0.62);
-    }
   }
-  
-  @media (max-width: 900px) {
-    .CreateTodoButton {
+}
+
+/* Pantallas menores a 900px */
+@media (max-width: 900px) {
+  .CreateTodoButton {
       width: calc(100% - 60px);
-    }
   }
-  
-  @media (max-width: 500px) {
-    .CreateTodoButton {
+}
+
+/* Pantallas menores a 768px (tablets y móviles) */
+@media (max-width: 768px) {
+  .CreateTodoButton {
+      left: 10%; /* Ajustar la posición */
+      width: calc(80% - 40px); /* Ajustar ancho */
+      height: 60px; /* Reducir tamaño */
+  }
+
+  .CreateTodoButton-button {
+      height: 55px;
+      width: 55px;
+      font-size: 60px; /* Reducir tamaño del símbolo '+' */
+  }
+}
+
+/* Pantallas menores a 500px */
+@media (max-width: 500px) {
+  .CreateTodoButton {
       width: 100%;
-    }
+      left: 0;
+      border-radius: 0; /* Sin bordes redondeados para maximizar espacio */
   }
-  
+
+  .CreateTodoButton-button {
+      height: 45px;
+      width: 45px;
+      font-size: 50px; /* Ajustar tamaño del símbolo '+' */
+  }
+}
