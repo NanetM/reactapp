@@ -1,6 +1,20 @@
-# Repositorio base del Curso de Introducción a React.js
+Tasks: Web Application for Task Management
 
-¡Hola!
+Description:
+Tasks is a web application designed to help you organize and manage your work, home, and personal to-dos. You can create task lists with essential details like title, description, date, and category. The app allows you to edit, delete, mark tasks as completed, and filter them based on various criteria.
+
+Key Features:
+
+✏️🗑️ Add, edit, and delete: Easily create, update, and delete your tasks.
+✅ Mark as completed: Highlight tasks that you’ve finished.
+🔍 Text filtering: Search for tasks by matching specific keywords or phrases.
+📊 Progress: Displays a visual indicator of your pending tasks.
+📦 Local storage: Saves your tasks in the browser so they persist even after closing the app.
+📱 Responsive design: Adapts to different devices for an optimal experience across screens.
+
+# Getting Started with Create React App
+
+This project was bootstrapped with Create React App.
 
 ## Available Scripts
 
